@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f2ff, #f7fbff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.note {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        box-shadow: none;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    button,
+    .button {
+        width: 100%;
+        padding: 12px 0;
+    }
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f8ff, #e6f0ff);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1d5a9c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.student {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #1d5a9c;
+    color: white;
+    padding: 15px;
+}
+
+.student p {
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto 30px;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #1d5a9c;
+    color: white;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #1d5a9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}

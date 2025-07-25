@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #cbe6ff, #eaf3ff);
+    margin: 0;
+    padding: 20px;
+}
+
+.fees {
+    max-width: 800px;
+    margin: auto;
+    background-color: white padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #1d5a9c;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #1d5a9c;
+    color: white;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #1d5a9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.download-btn {
+    background-color: #ffffff;
+}
+
+.back-btn:hover,
+.download-btn:hover {
+    background-color: #10437b;
+}

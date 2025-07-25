@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7ff, #e0f7ff);
+    color: #333;
+}
+
+header {
+    background-color: #1d5a9c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.table {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.attendancetable {
+    width: 100%;
+    background-color: white;
+}
+
+.attendancetable th,
+.attendancetable td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.attendancetable th {
+    background-color: #1d5a9c;
+    color: white;
+}
+
+.attendancetable tr:hover {
+    background-color: #f5faff;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #1d5a9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}

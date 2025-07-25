@@ -1,0 +1,120 @@
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        background: linear-gradient(to right, #97c1ed, #f4f5f6);
+        color: #333;
+    }
+    
+    header {
+        background: linear-gradient(to right, #1d5a9c, #004080);
+        padding: 20px 0;
+        text-align: center;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header-content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 40px;
+    }
+    
+    .welcome {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 35px;
+        color: #d0eaff;
+        font-weight: 500;
+    }
+    
+    .top-right {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+        letter-spacing: 1px;
+    }
+    
+    .student-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('https://cdn-icons-png.flaticon.com/512/3135/3135715.png');
+        background-repeat: no-repeat;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dashboard {
+        max-width: 700px;
+        margin: 50px auto;
+        padding: 30px;
+        background: #fefefe;
+        border-radius: 16px;
+        text-align: center;
+    }
+    
+    ul.dashboard-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.dashboard-list li {
+        display: block;
+        margin: 12px 0;
+        text-align: center;
+    }
+    
+    ul.dashboard-list li a {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        padding: 15px 25px;
+        background: linear-gradient(to right, #1d5a9c, #20568b);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+    
+    ul.dashboard-list li a:hover {
+        background: #003366;
+    }
+    
+    .icon {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    
+    .logout-btn {
+        background: #dddee1;
+        padding: 8px 16px;
+        color: #192c96;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .back-btn {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 10px 20px;
+        background-color: #1d5a9c;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+    }
